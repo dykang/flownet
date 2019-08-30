@@ -1,6 +1,10 @@
 # FlowNet
 Data and code for ["Linguistic Versus Latent Relations for Modeling a Flow in Paragraphs"](https://arxiv.org/) by Dongyeop Kang, Hiroaki Hayashi, Alan W Black, and Eduard Hovy, EMNLP 2019
 
+![](flownet.png)
+
+
+
 ## Dependency
  - tensorflow
  - nltk
