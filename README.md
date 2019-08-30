@@ -21,7 +21,7 @@ To run flownet with delta (--model_name seq2seq) or discourse (--model_name rsts
 
 To run other baseline models (--model_name {rnn,hrnn,hred}), run 
 ```
-    python train_clm.py \
+    python train_lm.py \
         --data_path ${DATA_PATH} \
         --dataset ${DATASET_NAME} \
         --model_path ${MODEL_PATH} \
