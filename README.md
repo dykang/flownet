@@ -15,7 +15,7 @@ Data and code for ["Linguistic Versus Latent Relations for Modeling a Flow in Pa
 Run `./setup.sh` at the root of this repository to install dependencies.
 
 ## Dataset preparation
-XXX
+Once you download the [PeerRead](https://github.com/allenai/PeerRead) and [BookCorpus](https://github.com/soskek/bookcorpus) datasets, preprocess them using the scripts under ```prepare_{arxiv,book}.py```. 
 
 ## Models
 In order to experiment with (and hopefully improve) our models, you can run following commands:
