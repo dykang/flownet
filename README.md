@@ -11,9 +11,6 @@ Data and code for ["Linguistic Versus Latent Relations for Modeling a Flow in Pa
  - (Aug 2019) This repository is not heavily tested due to the major refactoring of flownet with pytorch and transfomers. Please stay tuned for the new pytorch version of flownet.
 
 
-## Setup Configuration
-Run `./setup.sh` at the root of this repository to install dependencies.
-
 ## Dataset preparation
 Once you download the [PeerRead](https://github.com/allenai/PeerRead) and [BookCorpus](https://github.com/soskek/bookcorpus) datasets, preprocess them using the scripts under ```prepare_{arxiv,book}.py```. For discourse relations, we parse each paragraph using [DPLP](http://github.com/jiyfeng/DPLP). The final dataset looks like below: one from BookCorpus's SciFi and other from PeerRead's paper. 
 ```
