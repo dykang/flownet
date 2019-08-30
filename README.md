@@ -33,7 +33,7 @@ To run flownet with delta relations, run
 
 To run flownet with discourse relations, run 
 ```
-    python train_lm.py \
+    python train_clm.py \
         --data_path ${DATA_PATH} \
         --dataset ${DATASET_NAME} \
         --model_path ${MODEL_PATH} \
