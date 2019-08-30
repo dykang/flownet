@@ -1,6 +1,16 @@
 # FlowNet
 Data and code for ["Linguistic Versus Latent Relations for Modeling a Flow in Paragraphs"](https://arxiv.org/) by Dongyeop Kang, Hiroaki Hayashi, Alan W Black, and Eduard Hovy, EMNLP 2019
 
+## Dependency
+ - tensorflow
+ - nltk
+ - gensim
+ - nlgeval
+ 
+## Notes
+ - (Aug 2019) This repository is not heavily tested due to the major refactoring of flownet with pytorch and transfomers. Please stay tuned for the new pytorch version of flownet. 
+
+
 ## Setup Configuration
 Run `./setup.sh` at the root of this repository to install dependencies.
 
@@ -10,23 +20,26 @@ XXX
 ## Models
 In order to experiment with (and hopefully improve) our models, you can run following commands:
 
-To run flownet with delta (--model_name seq2seq) or discourse (--model_name rstseq2seq) relations, run 
-```
-    python train_clm.py \
-        --data_path ${DATA_PATH} \
-        --dataset ${DATASET_NAME} \
-        --model_path ${MODEL_PATH} \
-        --model_name {seq2seq,rtseq2seq}
-```
-
-To run other baseline models (--model_name {rnn,hrnn,hred}), run 
+To run flownet with delta relations, run 
 ```
     python train_lm.py \
         --data_path ${DATA_PATH} \
         --dataset ${DATASET_NAME} \
         --model_path ${MODEL_PATH} \
-        --model_name {rnn,hrnn,hred}
+        --model_name drnn
 ```
+
+To run flownet with discourse relations, run 
+```
+    python train_lm.py \
+        --data_path ${DATA_PATH} \
+        --dataset ${DATASET_NAME} \
+        --model_path ${MODEL_PATH} \
+        --model_name rstseq2seq
+```
+
+You can add ```--reload``` or ```--test``` options to reload the pre-trained model or test on testing data, respectively. 
+
 
 ## Citation
     
