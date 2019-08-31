@@ -60,6 +60,5 @@ You can add ```--reload``` or ```--test``` options to reload the pre-trained mod
     }
 
 ## Acknowledgement
- - We use some of the code in XXX for XXX.
  - We also thank Jason Weston, Dan Jurafsky, and anonymous reviewers for their helpful comments.
 
