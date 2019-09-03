@@ -1,5 +1,5 @@
 # FlowNet
-Data and code for ["Linguistic Versus Latent Relations for Modeling a Flow in Paragraphs"](https://arxiv.org/) by Dongyeop Kang, Hiroaki Hayashi, Alan W Black, and Eduard Hovy, EMNLP 2019
+Data and code for ["Linguistic Versus Latent Relations for Modeling a Flow in Paragraphs"](https://arxiv.org/abs/1908.11790) by Dongyeop Kang, Hiroaki Hayashi, Alan W Black, and Eduard Hovy, EMNLP 2019
 
 ![](flownet.png)
 
@@ -55,7 +55,7 @@ You can add ```--reload``` or ```--test``` options to reload the pre-trained mod
       booktitle = {Conference on Empirical Methods in Natural Language Processing (EMNLP)},
       address = {Hong Kong},
       month = {November},
-      url = {https://arxiv.org/},
+      url = {https://arxiv.org/abs/1908.11790},
       year = {2019}
     }
 
